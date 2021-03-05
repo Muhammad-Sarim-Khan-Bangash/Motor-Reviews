@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About US</title>
+    <script src="https://kit.fontawesome.com/4dfad6993a.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../Images/logo-2.png" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /*=============NAV-BAR==============*/
+
+.Container
+{
+    width: 100%;
+    margin: 0 auto;   
+}
+header
+{
+    height: 160px;
+    background-color:#12171d ;
+    border-bottom: 5px solid gray; 
+    
+}
+
+header p{
+    color:rgb(202, 193, 193);
+    font-size: 25px;
+}
+nav
+{
+    height: 50px;
+    background-color:#0c2461;
+    
+}
+nav ul
+{
+    list-style-type: none;
+    margin:0px;
+    padding: 0px;
+    
+   
+}
+nav ul li
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    display: inline-block;
+
+}
+nav ul a
+{
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    display: block;
+    height: 50px;
+    width: 192px;
+    line-height: 50px;
+}
+
+nav ul a:hover
+{
+    background-color: #0644e2;
+    text-decoration: underline;
+}
+
+
+.top{
+    height: 9vh;
+    background-color: #0c2461;
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 5px solid gray;
+    
+}
+.top i{
+    padding: 10px;
+    width: 20px;
+    line-height: 30px;
+    
+}
+
+
+/*===============BACKGROUND-IMAGE=================*/
+
+         .bg-image{
+            display: flex;
+            flex-flow:column wrap;
+            justify-content: center;
+            align-items: center;
+            background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url("../Images/about.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            height: 40vh;
+        }
+        .heading{
+            font-family: 'Merriweather', serif;
+            font-size: 50px;
+            text-align: center;
+            padding-top: 2px;
+            color: rgb(223, 217, 217);
+            text-shadow: 2px 2px 2px snow;
+            
+        }
+        /*===================DETAILS====================*/
+
+        .details h1{
+            padding: 10px;
+            border-bottom: 7px solid gray ; 
+            margin: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color:#192a56;  
+            color: white;
+            border-radius: 10px;
+        }
+        .details table{
+            margin-top: 100px;
+            margin-left: 50px;
+            margin-right: 50px;
+        }
+        .scripiting p{
+            margin-right: 50px;
+            margin-left: 50px;
+            margin-top: 20px;
+            padding: 10px;
+            border-bottom: 7px solid gray ; 
+            margin: 15px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color:#192a56;  
+            color: white;
+            border-radius: 10px;
+        }
+        .scripiting table{
+            margin-right: 200px;
+            margin-left: 200px;
+            margin-top: 20px;
+            padding: 10px;
+            border-bottom: 7px solid gray ; 
+          
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            background-color:#192a56;  
+            color: white;
+            border-radius: 10px;
+        }
+
+        /*===========================FOOTER==================*/
+.footer{
+    background: #000;
+    color: #8a8a8a;
+    font-size: 14px;
+    padding: 60px 0 20px;
+    margin-top: 10px;
+    }
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.footer p{
+    color: #8a8a8a;
+}
+.footer h3{
+    color: #fff;
+    margin-bottom: 20px;
+}
+.footer-col-1,.footer-col-2,.footer-col-3,.footer-col-4{
+    min-width: 250px;
+    margin-bottom: 20px;
+}
+.footer-col-4 a{
+    color: gray;
+    text-decoration: none;
+}
+.footer-col-1{
+    flex-basis: 30%;
+}
+.footer-col-2{
+    flex: 1;
+    text-align: center;
+}
+.footer-col-2 img{
+    width: 180px;
+    margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+    flex-basis: 12%;
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+.app-logo{
+    margin-top: 20px;
+}
+.app-logo img{
+    width: 140px;
+}
+.footer hr{
+    border:none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+.copyright{
+    text-align: center;
+}
+.menu-icon{
+    width: 28px;
+    margin-left: 20px;
+    display: none;
+}
+
+
+
+    </style>
+</head>
+<body>
+   <!------------------------------NAV-BAR----------------------------------------> 
+
+   <div class="Container">
+    <div class="top">
+       <a href=""><i style="color: whitesmoke;" class="fab fa-facebook-square fa-lg"></i></a>
+       <a href=""><i style="color: whitesmoke;" class="fab fa-twitter fa-lg"></i></a>
+       <a href=""><i style="color: whitesmoke;" class="fab fa-instagram fa-lg"></i></a> 
+       <a href=""><i style="color: whitesmoke;" class="fab fa-youtube fa-lg"></i></a>
+    </div>
+    <header>
+           <center>
+               <img src="../Images/logo-2.png" alt="">
+               <p>Helping You In Buying A Car</p>
+            </center>
+    </header>
+    
+    <nav>
+   <center>
+        <ul>
+            <li><a href="../Home/home.html" target="blank">Home</a></li>
+            <li><a href="#">Brands</a></li>               
+            <li><a href="../About us/about-us.html" target="blank">About Us</a></li>                    
+            <li><a href="../Contact us/Contact.html" target="blank">Contact Us</a></li>  
+        </ul>
+    </center>                            
+      </nav>   
+       </div>
+
+       <!-----------------------------BACKGROUND-IMAGE------------------------------->
+
+       <div class="bg-image">
+        <h1 class="heading"><u>ABOUT US</u></h1>
+        </div>
+
+        <!----------------------------------DETAILS---------------------------------------------->
+        <div class="details">
+            <table data-aos="fade-right">
+                <tr>
+                    <td><h1>What is the point of our website?</h1></td>
+                    <td><img src="../Images/question.png" height="200px" width="200px"></td>
+                </tr>
+            </table>
+            <div class="scripiting" data-aos="fade-in">
+                <p>As we know car has now become a basic necessity of our daily life.Our website "Motor Reviews" will help you in finding a best car according to your budget and your life style.
+                    Our website give you genuine and authentic details about the car which every buyer needs to make up their mind. Today finding a best car for your needs is a very hectic job.
+                    Our website makes it very easy by all the basic details about every car common in all over Pakistan.
+                </p>
+            </div>
+         <div class="sources">
+             <table data-aos="fade-left">
+                 <tr>
+                     <td><h1>What is the source of these information?</h1></td>
+                     <td><img src="../Images/magnifying.png" width="200px" height="200px"></td>
+                 </tr>
+             </table>
+             <div class="scripiting" data-aos="fade-up">
+                 <p>
+                     All this information is gathered from a very trusted website "Pakwheels". You can also visit theirwebsite to gather much more detailed information about the particular car. 
+                     
+                 </p>
+                 <table data-aos="flip-left"><tr><td> Visit Pakwheels Website:</td>  <td><a href="https://www.pakwheels.com/" target="blank"><img src="../Images/pakwheels.png" width="50px" height="50px"></td><td>Pakwheels</td></tr></table>
+                
+                
+        
+
+             </div>
+
+         </div>   
+        </div>
+
+    
+    <!-----------------------------------FOOTER----------------------------------->
+
+    <div class="footer" >
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="../Images/play-store.png">
+                        <img src="../Images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="../Images/logo-2.png" alt="">
+                    <p>Our purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Blog Post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow Us</h3>
+                    <ul>
+                      <a href="">  <li><i style="color:white; padding-right: 5px;" class="fab fa-facebook-square "></i>Facbook</li></a>
+                      <a href=""> <li><i style="color: white; padding-right: 5px;" class="fab fa-twitter "></i>Twitter</li></a>
+                      <a href=""> <li><i style="color: white; padding-right: 5px;" class="fab fa-instagram "></i>Instagram</li></a>
+                      <a href=""> <li><i style="color: white; padding-right: 5px;" class="fab fa-youtube"></i>Youtube</li></a>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">CopyRight 2020 - Motor Reviews</p>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+        offset: 300,
+        duration: 1000
+    });
+  </script>
+
+</body>
+</html>
